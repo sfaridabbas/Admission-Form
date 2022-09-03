@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Admission{
+            background-color: antiquewhite;
+            background-image: url(/th.jpg.jfif);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 110px;
+            /*transform: translate(45px);*/
+        }
+        .form{
+            background-image: url(/image.jpg);
+            background-attachment: scroll;
+            /*transform: translate(45px);*/
+        }
+    </style>
+</head>
+<body>
+    <div class="Admission">
+        <h1 align ="rightr"><b><u>ADMISSION FORM</u></b></h1><br>
+        <p style="color: red;">This is the admission Form of Galgotias University for the admission of Btech Student 2022.</p>
+        <!--img src="https://tse3.mm.bing.net/th?id=OIP.X1Hc_eqsANmRHiDSjXW1WgHaEL&pid=Api&P=0&w=309&h=174" alt="Collage logo" height="70px" width="90"-->
+    </div>
+    <div class="form">
+    <form action="Admission form.php"></form>
+    <label for="name">Enter your name -</label><br>
+    <input type="text" id="name" value=""><br><br>
+    <label for="School">Enter your school -</label><br>
+    <input type="text" id="school" value=""><br><br>
+    <label for="Date of Birth">Enter Date of Birth -</label><br>
+    <input type="text" id="DOB" value=""><br><br>
+    <label for="Fater name">Father Name - </label><br>
+    <input type="text" id="FN"><br><br>
+    <label for="Mothers name">Mothers Name - </label><br>
+    <input type="text" id="MN"><br><br><br>
+    <label for="Mobile">Mobile No.</label>
+    <input type="text" id="MNO">
+    <br><br><br>
+    <label for="Adress">ADDRESS -</label><br>
+    <textarea name="adress" id="" cols="30" rows="10"></textarea><br><br><br>
+    <label for="GENDER">SELECT GENDER -<br>
+    <input type="checkbox" id="Male" value="">MALE<br>
+    <input type="checkbox" id="Female" value="">FEMALE<br>
+    <input type="checkbox" id="Tansgender" value="">TRANSGENDER<br><br><br>
+    <p>CHOOSE YOUR CORSE -</p>   
+    <input type="radio" id="btech" name="BTECH" value="BTECH"> BTECH<br>
+    <input type="radio" id="barcH"  name="BARCH" value="BARCH">BARCH<br>
+    <input type="radio" id="Bpharma" name="Bpharma" value="Bpharma">BPHARMA<br><br><br>
+    <label for="Branch">SELECT BRANCH -</label><br>
+        <select name="Select branch" id="Branch">SELECT BRANCH
+    <option value="Option 1">Compuer Science and Engineering</option>
+    <option value="Option 2">Mechanical Engineering</option>
+    <option value="Option 3">Electrical Engineering</option>
+    <option value="Option 4">Electronics & Communication Engineering</option>
+    <option value="Option 5">Civil Engineering</option>
+    </select><br><br><br>
+    <input type="submit" id="submit" value="submit">
+    </form>
+    </div>
+</body>
+</html>
